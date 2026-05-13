@@ -1,0 +1,23 @@
+# Go
+*.exe
+*.test
+*.out
+bin/
+dist/
+agents/*/s0*-*
+agents/*/s_full*
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Skill scratch (shallow clone of upstream — do NOT push)
+.learn/
