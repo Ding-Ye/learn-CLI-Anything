@@ -6,4 +6,9 @@ use (
 	./agents/s03-skill-gen
 	./agents/s04-preview-bundle
 	./agents/s05-repl-skin
+	./agents/s06-hub-registry
+	./agents/s07-installer
+	./agents/s08-verify-plugin
+	./agents/s09-anygen-remote
+	./agents/s10-publish-flow
 )

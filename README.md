@@ -21,11 +21,11 @@ English version: [README.en.md](./README.en.md).
 | s03   | 从 CLI 自动生成 SKILL.md                    | ✅   |
 | s04   | 预览包：指纹与缓存                          | ✅   |
 | s05   | REPL 外壳：交互式 harness                   | ✅   |
-| s06   | CLI-Hub 注册中心                            | ⏳   |
-| s07   | 多后端安装器                                | ⏳   |
-| s08   | 插件验证与测试桩                            | ⏳   |
-| s09   | anygen：远程 API harness 案例               | ⏳   |
-| s10   | 发布流：CI + 注册中心同步                   | ⏳   |
+| s06   | CLI-Hub 注册中心                            | ✅   |
+| s07   | 多后端安装器                                | ✅   |
+| s08   | 插件验证与测试桩                            | ✅   |
+| s09   | anygen：远程 API harness 案例               | ✅   |
+| s10   | 发布流：CI + 注册中心同步                   | ✅   |
 | s_full| 端到端集成穿刺                              | ⏳   |
 | App A | 附录 A · 为何 CLI 适合 agent                | ⏳   |
 | App B | 附录 B · 上游源码导读地图                   | ⏳   |

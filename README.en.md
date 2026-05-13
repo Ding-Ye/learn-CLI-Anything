@@ -21,11 +21,11 @@ Each chapter is ≤ 1000 lines of Go and is its own Go module (`agents/sNN-*/`, 
 | s03   | Skill generator from a CLI                    | ✅     |
 | s04   | Preview bundles & cache                       | ✅     |
 | s05   | REPL skin: interactive harness                | ✅     |
-| s06   | CLI-Hub registry                              | ⏳     |
-| s07   | Multi-backend installer                       | ⏳     |
-| s08   | Plugin verification & test stub               | ⏳     |
-| s09   | anygen — remote-API harness case study        | ⏳     |
-| s10   | Publish flow: CI + registry sync              | ⏳     |
+| s06   | CLI-Hub registry                              | ✅     |
+| s07   | Multi-backend installer                       | ✅     |
+| s08   | Plugin verification & test stub               | ✅     |
+| s09   | anygen — remote-API harness case study        | ✅     |
+| s10   | Publish flow: CI + registry sync              | ✅     |
 | s_full| End-to-end integration trace                  | ⏳     |
 | App A | Appendix A · Why CLIs are right for agents    | ⏳     |
 | App B | Appendix B · Upstream source-reading map      | ⏳     |

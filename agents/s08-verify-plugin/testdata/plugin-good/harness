@@ -1,0 +1,20 @@
+#!/bin/sh
+# A tiny harness stub: prints help on --help, an "ok" envelope on --json.
+# Real plugins would dispatch to a CLI tree; this is just enough to satisfy
+# check_harness_has_help and check_harness_supports_json.
+case "$1" in
+  --help)
+    echo "usage: harness [--help] [--json]"
+    echo "  --help   print this help and exit"
+    echo "  --json   print a Result envelope"
+    exit 0
+    ;;
+  --json)
+    echo '{"ok":true,"data":null}'
+    exit 0
+    ;;
+  *)
+    echo "usage: harness [--help] [--json]"
+    exit 0
+    ;;
+esac

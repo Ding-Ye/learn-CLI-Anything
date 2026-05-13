@@ -1,0 +1,29 @@
+{
+  "updated": "2026-04-16T00:00:00Z",
+  "manifests": [
+    {
+      "name": "anygen",
+      "version": "1.0.0",
+      "backend": "pip",
+      "entry": "cli-anything-anygen",
+      "skill": "skills/cli-anything-anygen/SKILL.md",
+      "requires": ["python>=3.10", "ANYGEN_API_KEY"]
+    },
+    {
+      "name": "blender",
+      "version": "0.2.0",
+      "backend": "bundled",
+      "entry": "cli-anything-blender",
+      "skill": "skills/cli-anything-blender/SKILL.md",
+      "requires": ["blender>=4.0"]
+    },
+    {
+      "name": "audacity",
+      "version": "0.1.0",
+      "backend": "pip",
+      "entry": "cli-anything-audacity",
+      "skill": "skills/cli-anything-audacity/SKILL.md",
+      "requires": ["audacity>=3.4"]
+    }
+  ]
+}
