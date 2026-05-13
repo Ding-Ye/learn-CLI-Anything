@@ -17,10 +17,10 @@ Each chapter is ≤ 1000 lines of Go and is its own Go module (`agents/sNN-*/`, 
 | #     | Chapter                                       | Status |
 |-------|-----------------------------------------------|--------|
 | s01   | Minimum harness: CLI + JSON output            | ✅     |
-| s02   | SKILL.md parser & renderer                    | ⏳     |
-| s03   | Skill generator from a CLI                    | ⏳     |
-| s04   | Preview bundles & cache                       | ⏳     |
-| s05   | REPL skin: interactive harness                | ⏳     |
+| s02   | SKILL.md parser & renderer                    | ✅     |
+| s03   | Skill generator from a CLI                    | ✅     |
+| s04   | Preview bundles & cache                       | ✅     |
+| s05   | REPL skin: interactive harness                | ✅     |
 | s06   | CLI-Hub registry                              | ⏳     |
 | s07   | Multi-backend installer                       | ⏳     |
 | s08   | Plugin verification & test stub               | ⏳     |

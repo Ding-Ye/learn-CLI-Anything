@@ -2,4 +2,8 @@ go 1.22
 
 use (
 	./agents/s01-min-harness
+	./agents/s02-skill-md
+	./agents/s03-skill-gen
+	./agents/s04-preview-bundle
+	./agents/s05-repl-skin
 )

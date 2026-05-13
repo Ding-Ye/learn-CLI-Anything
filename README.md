@@ -17,10 +17,10 @@ English version: [README.en.md](./README.en.md).
 | #     | 章节                                        | 状态 |
 |-------|---------------------------------------------|------|
 | s01   | 最小 harness：CLI + JSON 输出               | ✅   |
-| s02   | SKILL.md 解析与渲染                         | ⏳   |
-| s03   | 从 CLI 自动生成 SKILL.md                    | ⏳   |
-| s04   | 预览包：指纹与缓存                          | ⏳   |
-| s05   | REPL 外壳：交互式 harness                   | ⏳   |
+| s02   | SKILL.md 解析与渲染                         | ✅   |
+| s03   | 从 CLI 自动生成 SKILL.md                    | ✅   |
+| s04   | 预览包：指纹与缓存                          | ✅   |
+| s05   | REPL 外壳：交互式 harness                   | ✅   |
 | s06   | CLI-Hub 注册中心                            | ⏳   |
 | s07   | 多后端安装器                                | ⏳   |
 | s08   | 插件验证与测试桩                            | ⏳   |

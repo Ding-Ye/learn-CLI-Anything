@@ -13,10 +13,10 @@ export type ChapterMeta = {
 
 export const CURRICULUM: ChapterMeta[] = [
   { slug: "s01-min-harness",     num: "s01",    title: { zh: "最小 harness：CLI + JSON 输出",     en: "Minimum harness: CLI + JSON" },                  available: true },
-  { slug: "s02-skill-md",        num: "s02",    title: { zh: "SKILL.md 解析与渲染",                en: "SKILL.md parser & renderer" },                    available: false },
-  { slug: "s03-skill-gen",       num: "s03",    title: { zh: "从 CLI 自动生成 SKILL.md",          en: "Skill generator from a CLI" },                    available: false },
-  { slug: "s04-preview-bundle",  num: "s04",    title: { zh: "预览包：指纹与缓存",                 en: "Preview bundles & cache" },                       available: false },
-  { slug: "s05-repl-skin",       num: "s05",    title: { zh: "REPL 外壳：交互式 harness",          en: "REPL skin: interactive harness" },                available: false },
+  { slug: "s02-skill-md",        num: "s02",    title: { zh: "SKILL.md 解析与渲染",                en: "SKILL.md parser & renderer" },                    available: true  },
+  { slug: "s03-skill-gen",       num: "s03",    title: { zh: "从 CLI 自动生成 SKILL.md",          en: "Skill generator from a CLI" },                    available: true },
+  { slug: "s04-preview-bundle",  num: "s04",    title: { zh: "预览包：指纹与缓存",                 en: "Preview bundles & cache" },                       available: true  },
+  { slug: "s05-repl-skin",       num: "s05",    title: { zh: "REPL 外壳：交互式 harness",          en: "REPL skin: interactive harness" },                available: true  },
   { slug: "s06-hub-registry",    num: "s06",    title: { zh: "CLI-Hub 注册中心",                   en: "CLI-Hub registry" },                              available: false },
   { slug: "s07-installer",       num: "s07",    title: { zh: "多后端安装器",                       en: "Multi-backend installer" },                       available: false },
   { slug: "s08-verify-plugin",   num: "s08",    title: { zh: "插件验证与测试桩",                   en: "Plugin verification & test stub" },               available: false },
