@@ -26,9 +26,9 @@ Each chapter is ≤ 1000 lines of Go and is its own Go module (`agents/sNN-*/`, 
 | s08   | Plugin verification & test stub               | ✅     |
 | s09   | anygen — remote-API harness case study        | ✅     |
 | s10   | Publish flow: CI + registry sync              | ✅     |
-| s_full| End-to-end integration trace                  | ⏳     |
-| App A | Appendix A · Why CLIs are right for agents    | ⏳     |
-| App B | Appendix B · Upstream source-reading map      | ⏳     |
+| s_full| End-to-end integration trace                  | ✅     |
+| App A | Appendix A · Why CLIs are right for agents    | ✅     |
+| App B | Appendix B · Upstream source-reading map      | ✅     |
 
 ## Quickstart
 

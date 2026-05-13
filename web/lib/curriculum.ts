@@ -22,9 +22,9 @@ export const CURRICULUM: ChapterMeta[] = [
   { slug: "s08-verify-plugin",   num: "s08",    title: { zh: "插件验证与测试桩",                   en: "Plugin verification & test stub" },               available: true  },
   { slug: "s09-anygen-remote",   num: "s09",    title: { zh: "anygen：远程 API harness 案例",      en: "anygen — remote-API harness" },                   available: true  },
   { slug: "s10-publish-flow",    num: "s10",    title: { zh: "发布流：CI + 注册中心同步",          en: "Publish flow: CI + registry" },                   available: true  },
-  { slug: "s_full-integration",  num: "s_full", title: { zh: "端到端集成穿刺",                     en: "End-to-end integration trace" },                  available: false },
-  { slug: "appendix-a-agent-native-thesis", num: "A", title: { zh: "附录 A · 为何 CLI 适合 agent", en: "Appendix A · Why CLIs for agents" },              available: false },
-  { slug: "appendix-b-upstream-map",         num: "B", title: { zh: "附录 B · 上游源码导读地图",   en: "Appendix B · Upstream source-reading map" },      available: false },
+  { slug: "s_full-integration",  num: "s_full", title: { zh: "端到端集成穿刺",                     en: "End-to-end integration trace" },                  available: true },
+  { slug: "appendix-a-agent-native-thesis", num: "A", title: { zh: "附录 A · 为何 CLI 适合 agent", en: "Appendix A · Why CLIs for agents" },              available: true },
+  { slug: "appendix-b-upstream-map",         num: "B", title: { zh: "附录 B · 上游源码导读地图",   en: "Appendix B · Upstream source-reading map" },      available: true },
 ];
 
 export type Locale = "zh" | "en";
